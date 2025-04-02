@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Developer Portfolio</title>
+
+
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+		<!-- Bootstrap Link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+		<!-- CSS link -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+		<!-- Icon Link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<!-- Start of Navbar -->
+		<div id="navbar">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+						<img class="img-fluid" height="50" width="50" src="./images/logo.png">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav d-flex d-grid gap-3 ms-auto">
+							<a class="nav-link" aria-current="page" href="#landing">Home</a>
+							<a class="nav-link" href="#projects">My Projects</a>
+							<a class="nav-link" href="#tools">Tools</a>
+							<a class="nav-link" href="#contact">Contact</a>
+						</div>
+					</div>
+				</div>
+			</nav>		
+		</div>
+		<!-- End of Navbar -->
+
+		<!-- Start of Landing -->
+		<div class="container-fluid text-center text-md-start" id="landing">
+			<div class="d-flex row py-5 justify-content-center justify-content-md-start">
+				<div class="ms-3 text-start mt-5">
+					<h1 id="title1">WEB DEVELOPER</h1>
+					<h1 id="title2">Portfolio</h1> 
+				</div>
+			</div> 
+			<div class="d-flex justify-content-center justify-content-md-end mb-5 me-md-5">
+				<a href="#profile-info" id="button-landing" class="btn primary-button text-white p-2 pe-4 ps-4 rounded-pill">
+					About Me
+				</a>
+			</div>
+		</div>
+
+
+
+
+		<div class="container pt-5" id="profile-info">
+			<div class="row d-flex align-items-center move-down">
+				<!-- Image Section -->
+				<div class="col-12 col-md-6 d-flex justify-content-center">
+					<img class="img-fluid mt-3" id="profile" src="./images/me.png">
+				</div>
+
+				<!-- Text Section -->
+				<div class="col-12 col-md-6 text-md-start text-center">
+					<h1 class="text-nowrap" id="name">Hi, I'm Francheska Clair</h1>
+					<h4 id="work" class="typewriter">Full-Stack Web Developer</h4>
+					<p class="mb-4 text-p">
+						I'm an aspiring full-stack developer with a focus on building dynamic and responsive web applications. Every project I work on fuels my excitement for coding, and I'm eager to continue learning and growing in the field.
+					</p>
+
+					<div class="d-flex justify-content-md-start justify-content-center mb-4">
+						<a href="#contact" id="button-info" class="btn primary-button text-white p-2 pe-4 ps-4 rounded-pill">Contact Me</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Landing -->
+
+		
+
+		<!-- Start of My Projects -->
+		<div class="container-fluid">
+			<div id="projects" class="d-flex row justify-content-center gap-4 mb-4 mt-5">
+				<h1 class="text-center pb-3 mt-0" id="name-projects">My Projects</h1>
+				<div class="card rounded-4">
+					<img src="./images/p1.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">E-commerce API Documentation</h5>
+						<p class="card-text">Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication, it also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p2.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">Course Booking API Documentation</h5>
+						<p class="card-text">RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p3.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">Course Booking App</h5>
+						<p class="card-text">A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p4.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">E-commerce App</h5>
+						<p class="card-text">MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p5.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">Airline Booking System Mockup</h5>
+						<p class="card-text">Side Project Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p6.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">Airline Booking System Prototype</h5>
+						<p class="card-text">Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+				<div class="card rounded-4">
+					<img src="./images/p7.png" class="card-img-top" alt="Project Image">
+					<div class="card-body">
+						<h5 class="card-title">Short Courses Capstone</h5>
+						<p class="card-text">Placeholder for your short courses capstone project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima dolore, illum, odio, libero vitae sapiente exercitationem non recusandae odit vel mollitia placeat nostrum architecto. Quis ipsam cum ratione minima.</p>
+						<a href="https://github.com/FrancheskaClair" target="_blank" class="btn btn-project">View Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End of My Projects -->
+
+
+		<!-- Start of Tools -->
+		<div id="tools" class="container text-center mt-3 pt-3 pb-5">
+			<h1 class="my-5" id="title-tools">Tools</h1>
+			<div class="row text-center">
+				<div class="col-12 col-md-6">
+					<h2 class="my-3 title-tool">Front End</h2>
+					<div class="d-flex gap-5 justify-content-center">
+						<img class="img-fluid img-tool" src="./images/html.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/css.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/boot.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/js.png" height="80" width="80">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<h2 class="my-3 title-tool">MERN</h2>
+					<div class="d-flex gap-2 justify-content-center">
+						<img class="img-fluid img-tool" src="./images/react.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/mongo.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/ex.png" height="80" width="80">
+						<img class="img-fluid img-tool ms-3" src="./images/node.png" height="80" width="80">
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5 text-center">
+				<div class="col-12">
+					<h2 class="my-5 title-tool">Other Tools</h2>
+					<div class="d-flex gap-4 justify-content-center flex-wrap">
+						<img class="img-fluid img-tool" src="./images/k.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/git.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/pm.png" height="80" width="80">
+						<img class="img-fluid img-tool" src="./images/sub.jpg" height="80" width="80">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Tools -->
+
+		<!-- Start of Contact -->
+		<div id="contact" class="container-fluid mt-5 pt-5 d-flex justify-content-center">
+			<div class="row">
+
+			<div class="col-12 col-md-6 my-5 py-5 mx-5 d-none d-md-block">
+				<div class="profile-card text-center">
+					<!-- Profile Image -->
+					<div class="profile-img">
+						<img src="./images/me.png" alt="Profile Picture" class="img-fluid rounded-circle">
+					</div>
+
+					<!-- Name & Title -->
+					<h4 class="mt-3" id="name-contact">Francheska Clair</h4>
+					<p class="badge title-badge">Full-Stack Web Developer</p>
+
+					<!-- Social Icons -->
+					<div class="d-flex justify-content-center gap-3">
+						<a href="https://github.com/FrancheskaClair" target="_blank">
+							<img class="img-fluid img-contact" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png" height="20" width="20">
+						</a>
+
+						<a href="https://www.linkedin.com/in/francheska-clair-salvador-4b901134b/" target="_blank">
+							<img class="img-fluid img-contact" src="https://cdn-icons-png.flaticon.com/256/124/124011.png" height="20" width="20">
+						</a>
+
+						<a href="https://www.indeed.com/" target="_blank">
+							<img class="img-fluid img-contact" src="https://cdn.brandfetch.io/indeed.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed" height="20" width="20">
+						</a>
+
+						<a href="https://www.kalibrr.com/home" target="_blank">
+							<img class="img-fluid img-contact" src="https://media.licdn.com/dms/image/v2/C560BAQH1jEOSGh6EeQ/company-logo_200_200/company-logo_200_200/0/1633501014554/kalibrr_indonesia_logo?e=2147483647&v=beta&t=MpL7fCQrsFd7Rx2-Vvfbi7KBcMFSC6reNF2e6G6C1PI" height="20" width="20">
+						</a>
+					</div>
+
+					<!-- Contact Details -->
+					<div class="contact-info p-3">
+						<p><i class="fa-solid fa-phone mx-2"></i> +63 968 772 1095</p>
+						<p><i class="fa-solid fa-envelope"></i> salvador.francheskaclair@gmail.com</p>
+						<p><i class="fa-solid fa-location-dot"></i> Batangas, Philippines</p>
+						<p><i class="fa-solid fa-calendar-days"></i> 28 Feb. 2005</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+			<div class="col-12 col-md-6 my-5 py-5">
+				<form class="p-5" id="form-col">
+					<h2 class="mt-5 mb-4 text-center" id="title-contact">Contact Me</h2>
+
+					<div class="mt-5 mb-3">
+						<label for="name" class="form-label label">Name</label>
+						<input type="text" class="form-control" id="name2" placeholder="Enter your name">
+					</div>
+
+					<div class="mb-3">
+						<label for="email" class="form-label label">Email Address</label>
+						<input type="email" class="form-control" id="email" placeholder="user.name@gmail.com">
+					</div>
+
+					<div class="form-group">
+						<label for="message" class="label">Message</label>
+						<textarea class="form-control" id="message" rows="7" placeholder="Send a message"></textarea>
+					</div>
+
+					<div class="d-flex justify-content-end">
+						<button id="button-form" class="btn p-2 pe-4 mt-2 ps-4 rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
+					</div>
+				</form>
+
+				<!-- Modal -->
+				<div class="modal" tabindex="-1" id="modalDiv">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Thank you for reaching out!</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>I will get back to you.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- End of Contact -->
+
+
+		<!-- Start of Footer -->
+		<footer class="mt-auto py-3 text-center">
+			<p class="mb-0">2025 | &copy; Copyright. All rights reserved.</p>
+		</footer>
+		<!-- End of Footer -->
+
+
+
+		<!-- Bootstrap Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>

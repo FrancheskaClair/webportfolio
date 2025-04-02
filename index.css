@@ -1,0 +1,417 @@
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body{
+	background-color: #edf0f2;
+	overflow-x: hidden;
+}
+
+
+
+#projects{
+	background-color: #ccb49e;
+	padding-bottom: 3rem;
+	margin-top: 0;
+}
+
+#contact{
+	background-color: #ccb49e;
+
+}
+
+#navbar {
+  font-family: "Merriweather", monospace;
+  background-color: #edf0f2;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: fixed;
+  width: 100%;
+  margin-top: 1rem;
+  z-index: 1000; 
+}
+
+nav>.container>div>div>a {
+  font-family: "Merriweather", monospace;
+  color: #a64c42;
+  text-decoration: none !important;
+  padding: 10px 15px;
+  position: relative; 
+}
+
+nav>.container>div>div>a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 0%; 
+  height: 2px;
+  background-color: #a64c42;
+  transition: width 0.3s ease-in-out;
+}
+
+nav>.container>div>div>a:hover::after {
+  width: 100%; 
+}
+
+nav>.container>div>div>a:hover{ 
+  color:#a64c42 !important ;
+}
+
+#landing{
+	font-family: "Merriweather", monospace ;
+	background-color: #edf0f2;
+	width: 100%; 
+	padding-bottom: 5rem;
+}
+
+
+#title1{
+	font-family: "Merriweather", monospace ;
+	font-size: 100px;
+	font-weight: lighter;
+	color: #a64c42;
+	margin-top: 5rem;
+}
+
+
+#title2{
+	font-family: "Merriweather", monospace ;
+	font-size: 100px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#button-landing{
+	background-color: #a64c42;
+	font-family: "Merriweather", monospace ;
+	font-size: 20px;
+	color: white;
+	width: 190px;
+  height: 48px;
+  text-align: center;
+	 cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#button-landing:hover {
+  background-color: gray; 
+  color: black;
+}
+
+#name{
+	font-family: "Merriweather", monospace;
+	font-size: 50px;
+	font-weight: #84b1cb;
+	color: #a64c42;
+}
+
+#work{
+	font-family: "Lora", monospace; 
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.text-p{
+	font-family: "Lora", monospace;
+}
+
+
+.typewriter {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black; 
+  
+  
+  animation: typing 3s steps(22) infinite, erase 2s steps(22) 4s infinite;
+}
+
+
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+@keyframes erase {
+  0% { width: 100%; }
+  100% { width: 0; }
+}
+
+#button-info{
+	background-color: #a64c42;
+	font-family: "Merriweather", monospace ;
+	font-size: 20px;
+	color: white;
+	width: 190px;
+  height: 48px;
+  text-align: center;
+	 cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#button-info:hover {
+  background-color: gray; 
+  color: black;
+}
+
+
+#profile-info{
+	margin-bottom: 10rem ;
+
+}
+
+#profile{
+	width: 400px;
+	height: 400px;
+}
+
+.move-down {
+    margin-top: 5rem;
+}
+
+
+.card{
+	width: 18rem !important;
+}
+
+.btn-project {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "Merriweather", monospace;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5rem;
+  color: #a64c42;
+  border: 2px solid #a64c42; 
+  background-color: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.4s, border-color 0.4s;
+  z-index: 1; 
+}
+
+.btn-project::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a64c42;
+  transition: top 0.4s ease-in-out;
+  z-index: -1; 
+}
+
+.btn-project:hover::before {
+  top: 0;
+}
+
+.btn-project:hover {
+  color: white; 
+  border-color: #a64c42; 
+}
+
+
+.card {
+  position: relative;
+
+  
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+  cursor: pointer;
+}
+
+.card:hover {
+  trans: translateY(-10px); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  background-color: white; 
+}
+
+.card-title{
+	font-family: "Merriweather", monospace;
+	color: #a64c42;
+}
+
+.card-text{
+	font-family: "Lora", monospace;
+}
+
+
+#name-projects{
+	font-family: "Merriweather", monospace ;
+	font-size: 80px;
+	color: white;
+	font-weight: light;
+	padding-top: 5rem;
+}
+
+.title-tool{
+	font-family: "Lora", monospace ;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #a64c42;
+}
+
+form{
+	background-color: #edf0f2;
+	border-radius: 12px;
+	border: 3px solid #a64c42;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#title-contact{
+	font-family: "Lora", monospace ;
+	font-size: 65px;
+	font-weight: lighter;
+	color: #a64c42;
+}
+
+.label{
+	font-family: "Merriweather", monospace;
+}
+
+#title-tools{
+	font-family: "Merriweather", monospace ;
+	font-size: 70px;
+	font-weight: light;
+}
+
+
+
+
+
+.img-tool:hover {
+    transform: scale(1.1);
+}
+
+
+footer{
+	background-color:#edf0f2;
+}
+
+.profile-card {
+    background-color: #edf0f2;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #a64c42;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 320px;
+}
+
+
+.profile-img img {
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #a64c42;
+}
+
+
+
+#name-contact{
+	font-size: 30px;
+	font-family: "Merriweather", monospace;
+}
+
+
+.title-badge {
+    background-color: #a64c42;
+    color: #edf0f2;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-family: "Lora", monospace;
+}
+
+
+.social-icons .icon {
+    color: #edf0f2;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+.social-icons .icon:hover {
+    opacity: 0.7;
+}
+
+
+.contact-info p {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #a64c42;
+    margin: 6px 0;
+    
+    font-family: "Lora";
+    font-size: 12px;
+}
+
+
+#button-form{
+	background-color: gray;
+	font-family: "Merriweather", monospace;
+	font-size: 15px;
+	color: white;
+	
+  text-align: center;
+	 cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#button-form:hover {
+  background-color: #a64c42; 
+  color: white;
+}
+
+.img-contact:hover {
+    transform: scale(2.2);
+}
+
+
+/* Mobile (iPhone XR) */
+@media (max-width: 828px) {
+	#title1{
+	font-family: "Merriweather", monospace ;
+	font-size: 50px;
+	font-weight: lighter;
+	color: #a64c42;
+	margin-top: 5rem;
+}
+
+#title2{
+	font-family: "Merriweather", monospace ;
+	font-size: 50px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#name{
+	font-family: "Merriweather", monospace;
+	font-size: 40px;
+	font-weight: #84b1cb;
+	color: #a64c42;
+}
+
+#work{
+	font-family: "Lora", monospace; 
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#navbar{
+	text-align: center;
+}
+
+}
+
