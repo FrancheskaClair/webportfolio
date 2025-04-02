@@ -20,7 +20,6 @@ body{
 #projects{
 	background-color: #ccb49e;
 	padding-bottom: 3rem;
-	margin-top: 0;
 }
 
 #contact{
@@ -289,9 +288,6 @@ form{
 }
 
 
-
-
-
 .img-tool:hover {
     transform: scale(1.1);
 }
@@ -382,36 +378,36 @@ footer{
 /* Mobile (iPhone XR) */
 @media (max-width: 828px) {
 	#title1{
-	font-family: "Merriweather", monospace ;
-	font-size: 50px;
-	font-weight: lighter;
-	color: #a64c42;
-	margin-top: 5rem;
-}
+		font-family: "Merriweather", monospace ;
+		font-size: 50px;
+		font-weight: lighter;
+		color: #a64c42;
+		margin-top: 5rem;
+	}
 
-#title2{
-	font-family: "Merriweather", monospace ;
-	font-size: 50px;
-	font-weight: lighter;
-	font-style: italic;
-}
+	#title2{
+		font-family: "Merriweather", monospace ;
+		font-size: 30px;
+		font-weight: lighter;
+		font-style: italic;
+	}
 
-#name{
-	font-family: "Merriweather", monospace;
-	font-size: 40px;
-	font-weight: #84b1cb;
-	color: #a64c42;
-}
+	#name{
+		font-family: "Merriweather", monospace;
+		font-size: 40px;
+		font-weight: #84b1cb;
+		color: #a64c42;
+	}
 
-#work{
-	font-family: "Lora", monospace; 
-	font-size: 30px;
-	font-weight: lighter;
-}
+	#work{
+		font-family: "Lora", monospace; 
+		font-size: 30px;
+		font-weight: lighter;
+	}
 
-#navbar{
-	text-align: center;
-}
+	#navbar{
+		text-align: center;
+	}
 
 }
 
