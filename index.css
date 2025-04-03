@@ -18,9 +18,15 @@ body{
 
 
 #projects{
-	background-color: #ccb49e;
 	padding-bottom: 3rem;
 }
+
+#bg-projects{
+	background-color: #ccb49e;
+
+}
+
+
 
 #contact{
 	background-color: #ccb49e;
@@ -108,7 +114,7 @@ nav>.container>div>div>a:hover{
 
 #name{
 	font-family: "Merriweather", monospace;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: #84b1cb;
 	color: #a64c42;
 }
@@ -125,25 +131,22 @@ nav>.container>div>div>a:hover{
 
 
 .typewriter {
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid black; 
-  
-  
-  animation: typing 3s steps(22) infinite, erase 2s steps(22) 4s infinite;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    animation: typing 3s steps(22, end) infinite alternate, blink 0.7s infinite;
 }
-
 
 @keyframes typing {
-  0% { width: 0; }
-  100% { width: 100%; }
+    from { width: 0; }
+    to { width: 63%; }
 }
 
-@keyframes erase {
-  0% { width: 100%; }
-  100% { width: 0; }
+@keyframes blink {
+    50% { border-color: transparent; }
 }
+
 
 #button-info{
 	background-color: #a64c42;
@@ -170,17 +173,15 @@ nav>.container>div>div>a:hover{
 
 #profile{
 	width: 400px;
-	height: 400px;
-}
-
-.move-down {
-    margin-top: 5rem;
+	max-width: 80%;
+	height: auto;
 }
 
 
 .card{
-	width: 18rem !important;
+	width: 20rem !important;
 }
+
 
 .btn-project {
   position: relative;
@@ -245,6 +246,7 @@ nav>.container>div>div>a:hover{
 
 .card-text{
 	font-family: "Lora", monospace;
+	text-align: justify;
 }
 
 
@@ -297,6 +299,11 @@ footer{
 	background-color:#edf0f2;
 }
 
+footer>p{
+	font-family: "Lora";
+	color: #a64c42;
+}
+
 .profile-card {
     background-color: #edf0f2;
     padding: 20px;
@@ -316,7 +323,7 @@ footer{
 
 
 #name-contact{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Merriweather", monospace;
 }
 
