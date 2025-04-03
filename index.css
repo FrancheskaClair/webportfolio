@@ -386,7 +386,7 @@ footer>p{
 @media (max-width: 828px) {
 	#title1{
 		font-family: "Merriweather", monospace ;
-		font-size: 50px;
+		font-size: 40px;
 		font-weight: lighter;
 		color: #a64c42;
 		margin-top: 5rem;
@@ -416,5 +416,7 @@ footer>p{
 		text-align: center;
 	}
 
+	form{
+		margin-left: 1.5rem;
+	}
 }
-
